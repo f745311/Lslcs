@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/openlihgt_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent">
+    </android.support.v7.widget.Toolbar>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#dddddd">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Delete All Shapes"
+            android:id="@+id/textView10"
+            android:background="@drawable/openlight_resourse"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginLeft="45dp"
+            android:layout_gravity="center_vertical"
+            android:onClick="OnDeleteClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="On"
+            android:id="@+id/textView12"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/openlight_resourse"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:onClick="OnOnClick"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Off"
+            android:id="@+id/textView13"
+            android:background="@drawable/openlight_resourse"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:onClick="OnOffClick"/>
+    </TableRow>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/openlight_webView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

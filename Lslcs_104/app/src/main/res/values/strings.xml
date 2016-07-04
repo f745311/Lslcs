@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lslcs_104</string>
+    <string name="login">登入</string>
+    <string name="account">帳號</string>
+    <string name="password">密碼</string>
+    <string name="logintitle">登錄</string>
+    <string name="upload">更新位置</string>
+    <string name="input">送出</string>
+    <string name="clear">清空</string>
+    <color name="spinnerBackground">#85c8e7</color>
+    <string name="openlight">路燈開啟</string>
+    <string name="inputlocation">輸入位置</string>
+    <string name="deletelocaiton">刪除位置</string>
+    <string name="fixlist">維修清單</string>
+    <string name="navigation">導航功能</string>
+    <string name="back">返回</string>
+    <string name="left">離開</string>
+    <string name="complete">完成</string>
+    <string name="reset">重新載入</string>
+
+</resources>
